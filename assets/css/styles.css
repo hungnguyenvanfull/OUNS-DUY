@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+/* Header */
+.header {
+    padding-top: 80px;
+    position: relative;
+    background: rgb(31, 51, 202);
+    background: linear-gradient(
+        309deg,
+        rgba(31, 51, 202, 1) 0%,
+        rgba(18, 134, 228, 1) 66%
+    );
+}
+
+.onus-logo-inner {
+    position: absolute;
+    top: 80px;
+    left: 30px;
+}
+.onus-logo {
+    width: 50%;
+}
+.header-content {
+    color: #fff;
+}
+.header-heading {
+    text-align: center;
+    font-size: 5.4rem;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(235, 220, 27);
+    text-decoration: underline;
+}
+.header-list {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.header-item {
+    font-size: 1.8rem;
+    line-height: 1.7;
+    list-style-type: disc;
+}
+.img-content-media {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+.header-show {
+    position: absolute;
+    color: rgb(225, 21, 21);
+    background-color: #fff;
+    font-weight: 700;
+    top: -4%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.4rem;
+    padding: 16px 20px;
+    border-radius: 16px;
+}
+
+/* Sign up */
+.sign-up {
+    background-color: #3b3bd8;
+}
+.sign-up__logo {
+    background-color: #fff;
+    padding-left: 160px;
+}
+.sign-up__logo img {
+    width: 20%;
+}
+.sign-up .container {
+    margin-top: 80px;
+}
+.sign-up__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+}
+.sign-up__heading-left {
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-size: 12rem;
+    display: flex;
+    justify-content: end;
+}
+.sign-up__heading-right {
+    font-size: 4rem;
+    display: flex;
+    line-height: 1.5;
+    justify-content: start;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+.sign-up__sub-heading {
+    margin-top: 20px;
+    font-size: 4rem;
+    color: rgb(7, 3, 36);
+    line-height: 60px;
+    font-weight: 700;
+    margin-left: 190px;
+}
+.sign-up__desc {
+    font-size: 2.2rem;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    margin-left: 180px;
+}
+.sign-up-btn {
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    background: rgb(225, 21, 21);
+    width: 256px;
+    padding: 16px 0;
+    border-radius: 50%;
+    color: #f6e366;
+    font-size: 2rem;
+    text-decoration: underline;
+    margin-left: 350px;
+}
+.sign-up__links {
+    margin-top: 300px;
+}
+.sign-up__link {
+    height: 71px;
+}
+
+/* Suit */
+
+.suit {
+    background-image: url(../img/backgroud-suit.webp);
+}
