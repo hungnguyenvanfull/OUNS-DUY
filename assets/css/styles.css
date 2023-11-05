@@ -163,6 +163,104 @@ body {
     left: -327px;
     transform: rotate(531deg);
 }
+/* Internet */
+.internet {
+    background: url(../img/background-page-2.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.heading-internet {
+    padding-top: 30px;
+    font-size: 5rem;
+    font-family: "Bungee", sans-serif;
+    font-weight: bold;
+    line-height: 1.4;
+    color: rgb(244, 64, 37);
+    text-align: center;
+}
+.sub-heading-internet {
+    font-family: "Bungee", sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    line-height: 1.7;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 3rem;
+}
+.content-internet {
+    display: flex;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 60px;
+}
+.avatar__content-internet {
+    width: 300px;
+    /* height: 400px; */
+    object-fit: cover;
+}
+.content-internet__left {
+    position: relative;
+    z-index: 5;
+}
+.content-internet__left figcaption {
+    position: relative;
+    background: url("https://w.ladicdn.com/s600x350/5b94eaffd5f2e647d50ab0e6/gold-20210619100918.jpg");
+    font-size: 2.8rem;
+    text-align: center;
+    font-weight: 700;
+    top: -5px;
+    padding: 16px 0;
+    border-radius: 0 99px;
+}
+.content-internet__right {
+    position: relative;
+    margin-top: 80px;
+    z-index: 2;
+}
+.content-internet__right::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 600px;
+    top: -30px;
+    left: -80px;
+    height: 380px;
+    background-color: #fff;
+    z-index: -1;
+    border-radius: 54px 120px 80px 120px;
+    transform: rotate(2deg);
+}
+.content-right__title {
+    font-size: 2rem;
+    line-height: 1.4;
+    font-style: italic;
+}
+.content-right__title strong {
+    font-weight: 700;
+    font-style: normal;
+}
+.content-right__title span {
+    color: #ff0101;
+    font-weight: 700;
+    font-style: normal;
+}
+.content-right__list {
+    font-size: 1.9rem;
+    font-weight: 300;
+    font-style: italic;
+}
+.content-right__item {
+    margin-top: 20px;
+    position: relative;
+}
+.content-right__item::before {
+    content: url(../img/check.svg);
+    display: block;
+    position: absolute;
+    width: 32px;
+    left: -40px;
+}
 /* Header */
 .header {
     padding-top: 80px;
