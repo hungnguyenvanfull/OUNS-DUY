@@ -379,10 +379,8 @@ body {
     display: flex;
     margin-top: 60px;
     justify-content: center;
-    background: rgb(225, 21, 21);
     width: 256px;
-    padding: 16px 0;
-    border-radius: 50%;
+    padding: 35px 0;
     color: #f6e366;
     font-size: 2rem;
     text-decoration: underline;
