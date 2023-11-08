@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /dang-ki.html
+Allow: /dang-nhap.html
+
+Sitemap: https://www.example.com/sitemap.xml
