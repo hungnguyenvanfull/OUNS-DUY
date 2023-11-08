@@ -71,7 +71,7 @@ body {
 
 .sub-heading-join {
     font-family: "Bungee", sans-serif;
-    margin-top: 80px;
+    margin-top: 20px;
     font-size: 2.5rem;
     margin-left: 60px;
     color: #f7b320;
@@ -81,14 +81,12 @@ body {
     margin-top: 40px;
     display: flex;
     align-items: center;
+    gap: 32px 50px;
 }
 .join-item {
     position: relative;
-    margin-left: 50px;
 }
-.join-item:nth-child(1) {
-    margin-left: 0;
-}
+
 .join-item:nth-child(6) .join-list__icon {
     width: 102px;
 }
@@ -167,6 +165,7 @@ body {
 .internet {
     background: url(../img/background-page-2.PNG);
     background-size: cover;
+
     background-repeat: no-repeat;
 }
 .heading-internet {
@@ -202,7 +201,7 @@ body {
 .content-internet__left {
     position: relative;
     z-index: 5;
-    bottom: -24px;
+    bottom: -60px;
 }
 .content-internet__left figcaption {
     position: relative;
@@ -225,7 +224,7 @@ body {
     display: block;
     width: 600px;
     top: -30px;
-    left: -80px;
+    left: -140px;
     height: 450px;
     background-color: #fff;
     z-index: -1;
@@ -247,7 +246,7 @@ body {
     font-style: normal;
 }
 .content-right__list {
-    font-size: 1.9rem;
+    font-size: 1.7rem;
     font-weight: 300;
     font-style: italic;
 }

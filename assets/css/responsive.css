@@ -1,0 +1,59 @@
+/* PC */
+@media screen and (min-width: 992px) {
+}
+
+/* Tablet & mobile */
+@media screen and (max-width: 991px) {
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+    .join {
+        width: 100vw;
+        overflow-x: hidden;
+        height: auto;
+    }
+    .join-decor-1 {
+        height: 130vh;
+    }
+    .join-content {
+        width: 100vw;
+    }
+    .logo-pacha {
+        width: 100px;
+    }
+    .name-logos {
+        font-size: 2rem;
+    }
+    .headings-join {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .heading-join {
+        margin-right: 0;
+        text-align: center;
+    }
+    .sub-heading-join {
+        width: 100vw;
+        margin-left: 0;
+        text-align: center;
+    }
+    .join-list {
+        width: 100%;
+
+        justify-content: center;
+    }
+    .btns {
+        display: flex;
+        justify-content: center;
+    }
+    .duy-media {
+        display: none;
+    }
+}
