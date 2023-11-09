@@ -18,10 +18,13 @@
         height: auto;
     }
     .join-decor-1 {
-        height: 130vh;
+    }
+    .join-100ref {
+        margin-top: 0;
     }
     .join-content {
         width: 100vw;
+        margin-top: 0;
     }
     .logo-pacha {
         width: 100px;
