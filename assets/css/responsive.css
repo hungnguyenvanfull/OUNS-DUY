@@ -22,7 +22,7 @@
         background-color: #07132b;
     }
     .join-decor-1 {
-        height: auto;
+        display: none;
     }
 
     .join-100ref {
