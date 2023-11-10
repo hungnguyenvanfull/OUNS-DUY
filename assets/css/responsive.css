@@ -1,5 +1,9 @@
 /* PC */
 @media screen and (min-width: 992px) {
+    .duy-media {
+    }
+    .duy-img {
+    }
 }
 
 /* Tablet & mobile */
@@ -15,7 +19,6 @@
     .join {
         width: 100vw;
         overflow-x: hidden;
-        height: auto;
     }
     .join-decor-1 {
     }
@@ -58,5 +61,202 @@
     }
     .duy-media {
         display: none;
+    }
+    .internet {
+        width: 100%;
+    }
+    .sub-heading-internet {
+        width: 100%;
+        padding: 0 22px;
+        text-shadow: #0c0c0c 2px 2px 2px;
+    }
+    .content-internet {
+        padding-bottom: 450px;
+    }
+    .content-internet__left {
+        bottom: -400px;
+
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .content-right__title {
+        width: 80vw;
+    }
+    .content-internet__right {
+        width: 100vw;
+        left: -340px;
+    }
+    .content-right__title {
+        font-size: 1.6rem;
+    }
+    .content-right__list {
+        font-size: 1.4rem;
+    }
+    .content-internet__right::after {
+        width: 400px;
+        left: -46px;
+    }
+    .onus-logo-inner {
+        display: none;
+    }
+    .header-list {
+        padding: 0 24px;
+    }
+    .header-item {
+        margin-top: 20px;
+    }
+    .img-content-media {
+        margin-top: 80px;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-show {
+        top: -60px;
+        text-align: center;
+    }
+    .img-content__item {
+        margin-top: 8px;
+    }
+    .sign-up {
+        width: 100%;
+    }
+    .sign-up__logo {
+        display: none;
+    }
+    .sign-up__left {
+        width: 100vw !important;
+        align-items: center;
+    }
+    .sign-up__media {
+        display: none;
+    }
+    .sign-up__heading-left {
+        font-size: 6rem;
+    }
+    .sign-up__inner {
+        align-items: center;
+    }
+    .sign-up__sub-heading {
+        margin-left: 0;
+        padding: 0 32px;
+        text-align: center;
+    }
+    .sign-up__desc {
+        margin-left: 0;
+        text-align: center;
+        line-height: 1.5;
+        padding: 0 32px;
+    }
+    .sign-up-btn {
+        margin-left: 0;
+    }
+    .sign-up__links {
+        margin-top: 100px;
+    }
+    .sign-up__link {
+        height: 60px;
+    }
+    .suit {
+        padding-bottom: 50px;
+    }
+    .suit-heading {
+        text-align: center;
+    }
+    .img-suit__decor-1 {
+        top: 0;
+        left: 0;
+    }
+    .suit-content__list {
+        width: 100vw;
+    }
+    .suit-content__left {
+        display: flex;
+    }
+    .suit-item__img {
+        width: 100vw;
+    }
+    .suit-content__item {
+        margin-top: 80px;
+    }
+    .suit__right-img {
+        display: none;
+    }
+    .suit-content__right-2 {
+        display: none;
+    }
+    .suit-content__right {
+        width: 100vw;
+    }
+    .suit-free__desc {
+        margin-bottom: 150px;
+    }
+    .suit-content__right-desc {
+        margin-top: 50px;
+    }
+    .suit-free__img {
+        display: none;
+    }
+    .heading-suit-challenge {
+        font-size: 5.4rem;
+        line-height: 1.45;
+    }
+    .suit-challenge__list {
+        padding: 0 8px;
+    }
+    .suit-challenge__desc {
+        font-size: 3rem;
+    }
+    .heading-videos__left {
+        font-size: 4.7rem;
+    }
+    .heading-videos {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .heading-videos h3 {
+        line-height: 1.5;
+    }
+    .end {
+        height: auto;
+    }
+    .end-content__left {
+        display: none;
+    }
+    .end-content__right {
+        margin-top: 200px;
+        margin-left: 0;
+        width: 100%;
+    }
+    .heading-end {
+        padding: 0 8px;
+        text-align: center;
+    }
+    .btn-end {
+        font-size: 3rem;
+        width: 100%;
+        height: 124px;
+    }
+    .link-end-content {
+        flex-direction: column;
+    }
+    .end-decor-1  {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+    .end-decor-2 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+    .end-decor-3 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
     }
 }
