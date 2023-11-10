@@ -19,9 +19,12 @@
     .join {
         width: 100vw;
         overflow-x: hidden;
+        background-color: #07132b;
     }
     .join-decor-1 {
+        height: auto;
     }
+
     .join-100ref {
         margin-top: 0;
     }
@@ -241,7 +244,7 @@
     .link-end-content {
         flex-direction: column;
     }
-    .end-decor-1  {
+    .end-decor-1 {
         position: absolute;
         bottom: 0;
         left: 0;
