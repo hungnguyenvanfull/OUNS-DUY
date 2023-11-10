@@ -17,8 +17,7 @@
 /* Mobile */
 @media screen and (max-width: 767px) {
     .join {
-        width: 100vw;
-        overflow-x: hidden;
+        height: auto;
         background-color: #07132b;
     }
     .join-decor-1 {
